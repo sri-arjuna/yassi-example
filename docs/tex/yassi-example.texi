@@ -1,0 +1,68 @@
+\input texinfo   @c -*-texinfo-*-
+@comment %**start of header
+@c @setfilename YASSI-Example.info
+@include _version.texi
+@settitle Manual 1.0 for YASSI-Example
+@syncodeindex pg cp
+@comment %**end of header
+@copying
+This manual is for YASSI-Example (version @value{VERSION}, @value{UPDATED})
+Copyright @copyright{} 2011-2015 Simon Arjuna Erat
+YASSI-Example is licensed as GPLv3.
+The manual is licensed as GFDL.
+
+@quotation
+Permission is granted to copy, distribute and/or modify this document
+under the terms of the GNU Free Documentation License, Version 1.3 or
+any later version published by the Free Software Foundation; with no
+Invariant Sections, with no Front-Cover Texts, and with no Back-Cover
+Texts.  A copy of the license is included in the section entitled
+``GNU Free Documentation License''.
+@end quotation
+@end copying
+
+@documentdescription
+linux,shell,bash,script,install,uninstall
+@end documentdescription
+
+@comment ## --------------------------------------------------------------- ##
+
+@titlepage
+@title Table of Content
+@subtitle for version @value{VERSION}, @value{UPDATED}
+@author Simon Arjuna Erat (@email{erat.simon@@gmail.com})
+@page
+@vskip 0pt plus 1filll
+@insertcopying
+@end titlepage
+
+
+@comment ## --------------------------------------------------------------- ##
+
+@ifnottex
+@node Top
+@top GNU YASSI-Example
+This manual is for YASSI-Example (version @value{VERSION}, @value{UPDATED}).
+@end ifnottex
+
+YASSI-Example 
+@menu
+* Intro :: 
+* Usage :: 
+* Config::
+@end menu
+@contents
+
+@comment ## --------------------------------------------------------------- ##
+
+@node Intro
+@chapter Intro
+
+@node Usage
+@chapter Usage
+
+@node Config
+@chapter Config
+
+
+@bye
